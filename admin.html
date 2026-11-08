@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية — Gannaty Admin</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+<style>
+  :root { --bg: #faf6f1; --fg: #2b1d14; --muted: #6e5a4c; --line: #e6dccf; --accent: #6b4226; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1a120d; --fg: #f1e7dc; --muted: #b9a594; --line: #3a2b20; --accent: #d9a77c; color-scheme: dark; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.8 "Cairo", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto;
+         padding: 32px max(16px, env(safe-area-inset-right)) 48px max(16px, env(safe-area-inset-left)); }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--accent); }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); font-size: .9rem; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+  section[lang="en"] { direction: ltr; text-align: left; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<section>
+  <h1>سياسة الخصوصية</h1>
+  <p class="muted">تطبيق Gannaty Admin — إدارة اتحاد شاغلي كمبوند جنتي · آخر تحديث: 9 نوفمبر 2026</p>
+
+  <p>تطبيق Gannaty Admin مخصّص لأعضاء مجلس إدارة وفريق عمل اتحاد شاغلي كمبوند جنتي المصرح لهم فقط. تُنشأ حسابات المشرفين من قبل الإدارة ولا يتاح التسجيل العام داخل التطبيق.</p>
+
+  <h2>البيانات التي يعالجها التطبيق</h2>
+  <ul>
+    <li><b>بيانات حساب المشرف:</b> اسم المستخدم، الصلاحيات الإدارية، وسجل العمليات (Audit Logs) لضمان أمان النظام.</li>
+    <li><b>البيانات المالية والإدارية للكمبوند:</b> المصروفات، الإيرادات، الاشتراكات، الودائع، كشوف حسابات الوحدات والملاك، والإيجارات.</li>
+    <li><b>المرفقات والتقارير:</b> صور الفواتير والإيصالات التي يختار المشرف رفعها أو تصديرها (PDF / Excel) من الكاميرا أو مكتبة الصور.</li>
+    <li><b>طلبات الصيانة والزوار:</b> متابعة طلبات الملاك وإشعارات البوابات والزوار.</li>
+    <li><b>بيانات الأعطال التشخيصية:</b> تقارير الأخطاء التقنية (عبر Sentry) لتحسين استقرار التطبيق دون أي تتبّع إعلاني.</li>
+  </ul>
+  <p>تسجيل الدخول بالبصمة أو Face ID يتم محلياً على جهازك فقط، ولا تصل إلينا أي بيانات بيومترية. لا يحتوي التطبيق على أي إعلانات أو أدوات تتبّع تسويقية.</p>
+
+  <h2>كيف نستخدم البيانات ومن يراها</h2>
+  <p>تُستخدم البيانات حصرياً لإدارة الحسابات المالية والتشغيلية لكمبوند جنتي وإصدار التقارير الدورية للملاك ومجلس الإدارة. يطّلع عليها المشرفون المصرح لهم حسب مستوى الصلاحيات الممنوح لكل حساب. لا نبيع البيانات ولا نشاركها مع أي طرف ثالث لأغراض تسويقية.</p>
+
+  <h2>أين تُحفظ البيانات</h2>
+  <p>تُحفظ البيانات على خوادم Supabase المشفّرة مع تطبيق سياسات أمان صارمة (Row-Level Security)، وتُرسل الإشعارات عبر Firebase Cloud Messaging. جميع الاتصالات بين التطبيق والخوادم مشفّرة بالكامل عبر بروتوكول HTTPS/TLS.</p>
+
+  <h2>الاحتفاظ بالبيانات وحذف الحساب</h2>
+  <p>تُحفظ السجلات الإدارية والمالية وفق متطلبات اتحاد الشاغلين. لإلغاء حساب مشرف أو طلب حذف بياناته أو تعديلها، يتم التواصل مباشرة مع رئيس اتحاد الشاغلين أو مسؤول النظام.</p>
+
+  <h2>التواصل والدعم الفني</h2>
+  <p>إدارة اتحاد شاغلي كمبوند جنتي — واتساب / هاتف: <span dir="ltr">+20 109 886 8292</span></p>
+</section>
+
+<hr>
+
+<section lang="en">
+  <h1>Privacy Policy</h1>
+  <p class="muted">Gannaty Admin app — Gannaty Compound Residents Association · Last updated: 9 November 2026</p>
+
+  <p>Gannaty Admin is an internal management application restricted to authorized board members and staff of Gannaty Compound Residents Association. Administrator accounts are provisioned internally; public sign-up is not available.</p>
+
+  <h2>Data the app processes</h2>
+  <ul>
+    <li><b>Administrator account data:</b> username, role permissions, and administrative audit logs for security and accountability.</li>
+    <li><b>Compound financial &amp; operational records:</b> expenses, revenues, unit balances, owner statements, deposits, and rental records.</li>
+    <li><b>Attachments &amp; reports:</b> invoice photos, receipts, and exported reports (PDF / Excel) selected by the administrator from the camera or photo library.</li>
+    <li><b>Service requests &amp; visitors:</b> maintenance requests and gate visitor logs.</li>
+    <li><b>Crash &amp; diagnostic data:</b> technical error logs (via Sentry) used strictly to maintain app stability, with zero advertising or cross-app tracking.</li>
+  </ul>
+  <p>Biometric authentication (Touch ID / Face ID) is processed locally on the device by the operating system; no biometric data is transmitted or stored externally.</p>
+
+  <h2>How data is used and shared</h2>
+  <p>Data is used solely to operate and manage Gannaty Compound finances, maintenance, and resident services. Access is restricted to authorized administrators based on role permissions. We never sell user data or share it with third parties for marketing or advertising.</p>
+
+  <h2>Storage and security</h2>
+  <p>All data is stored securely on encrypted Supabase servers protected by Row-Level Security (RLS), and push notifications are delivered via Google Firebase Cloud Messaging. All network traffic is encrypted via HTTPS/TLS.</p>
+
+  <h2>Retention and account deletion</h2>
+  <p>Administrative and financial records are retained as required by the association's accounting policies. To revoke or delete an administrator account, contact the system administrator or association board directly.</p>
+
+  <h2>Contact &amp; Support</h2>
+  <p>Gannaty Compound Residents Association — WhatsApp / Phone: <span dir="ltr">+20 109 886 8292</span></p>
+</section>
+</main>
+</body>
+</html>
